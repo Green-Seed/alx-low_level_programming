@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
  * main - entry point
- * Des: prints single base 10 numbers from 0
+ * Des: prints all possible combinations of single digit numbers
+ * Return: 0
  */
 int main(void)
 {
@@ -10,9 +11,18 @@ int main(void)
 	while (x < 10)
 	{
 		putchar(48 + x);
+
+		if (x != 9)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+
 		x++;
 	}
 
 	putchar('\n');
+
 	return (0);
 }
+

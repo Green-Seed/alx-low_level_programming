@@ -1,19 +1,18 @@
 #include <stdio.h>
 #include <time.h>
-#include <stdlib.h>
 /**
  * main - entry point
- * Des: prints single digit base 10 numbers from 0
- * Return: 0
+ * Des: Prints reversed abc(s) in lowercases
+ * Return (0)
  */
 int main(void)
 {
-	char x = '0';
+	char x = 'z';
 
-	while (x <= '9')
+	while (x >= 'a')
 	{
 		putchar(x);
-		x++;
+		x--;
 	}
 
 	putchar('\n');

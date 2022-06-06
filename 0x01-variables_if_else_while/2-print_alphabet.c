@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - entry point
- * Des: prints abc(s) in lowercases except for q and e
+ * main - program entry point
+ * Des: prints lower cassed letters of the alphabet
  * Return: 0
  */
 int main(void)
@@ -10,8 +10,8 @@ int main(void)
 
 	while (x <= 'z')
 	{
-		if (x != 'e' && x != 'q')
-			putchar(x);
+		putchar(x);
+
 		x++;
 	}
 
