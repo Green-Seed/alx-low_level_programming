@@ -3,6 +3,7 @@
 *main - entry point
 *Description: 1-100 for multiples of 3 fizz 5 buzz of both fizbuzz*
 *Return: void
+*/
 
 int main(void)
 {
