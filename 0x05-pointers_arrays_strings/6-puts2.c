@@ -1,9 +1,9 @@
 #include "main.h"
-#include <string.h>
 
 /**
- *puts2 - prints characters of a string followed by a new line
- *@str: string parameter
+ * puts2 - print alternating characters of string
+ * @str: string
+ * Return: void
  */
 
 void puts2(char *str)
@@ -13,9 +13,10 @@ void puts2(char *str)
 	i = 0;
 	while (str[i] != '\0')
 	{
-		if (i % 2; == 0)
-			_putchar(str[i]);
+		if (i % 2 == 0)
+			_putchar(str[1]);
 		i++;
 	}
 	_putchar('\n');
 }
+
