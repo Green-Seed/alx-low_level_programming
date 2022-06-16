@@ -1,8 +1,9 @@
 #include "main.h"
 
 /** strcat - concatenates two strings
- * @str - string to be changed
- * @src - string to be changed
+ * @str - string to be changed 
+ * @src - source of string
+ * @dest - destination of string
  */
 
 char *_strcat(char *dest, char *src)
